@@ -1,0 +1,9 @@
+<script>
+childwin=
+window.open("https://www.cfachina.org/");
+functionsendMessage(){
+childwin.postMessage('_TINGYUN{"type":"gather","fromJS":"
+APM"}','*')
+}
+(function(){setTimeout("sendMessage()",1000);}());
+</script>
